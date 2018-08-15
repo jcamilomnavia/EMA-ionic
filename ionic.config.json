@@ -1,0 +1,8 @@
+{
+  "name": "ema",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "9885b15b"
+}
