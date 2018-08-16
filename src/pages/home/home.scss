@@ -1,3 +1,71 @@
 page-home {
+    .scroll-content {
+        background-color: #001f2b;
+    }
+
+    .chat-item {
+        background-color: transparent !important;
+    }
+
+    .chat-item ion-avatar[item-left] {
+        margin-right: 0px !important;
+    }
+
+    /*.chat-item ion-avatar[item-right] {
+        margin-left: 0px !important;
+    }*/
+
+
+    .bubble{
+       vertical-align: middle;
+        width: auto;
+        margin: 50px auto;
+        border-radius: 15px;
+        background: whitesmoke;
+        padding: 20px;
+        text-align: center;
+        font-weight: 900;
+        color: black;
+        font-family: arial;
+        position: relative;
+    }
+
+    .you::before {
+        
+
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 15px solid whitesmoke;
+        border-right: 15px solid transparent;
+        border-top: 15px solid whitesmoke;
+        border-bottom: 15px solid transparent;
+        right: -16px;
+        top: 0px;
+    }
+
+    .me {
+        float: left;   
+        margin: 2px 45px 2px 15px;         
+    }
+
+    .me:before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 15px solid transparent;
+        border-right: 15px solid whitesmoke;
+        border-top: 15px solid whitesmoke;
+        border-bottom: 15px solid transparent;
+        left: -16px;
+        top: 0px;
+    }
+
+    .you {
+        float: right;    
+        margin: 2px 15px 2px 45px;         
+    }
 
 }
