@@ -1,15 +1,15 @@
 page-home {
     .scroll-content {
-        background-color: #001f2b;
+        background-color: #ffffff;
     }
 
     .chat-item {
         background-color: transparent !important;
     }
 
-    .chat-item ion-avatar[item-left] {
+   /* .chat-item ion-avatar[item-left] {
         margin-right: 0px !important;
-    }
+    }*/
 
     /*.chat-item ion-avatar[item-right] {
         margin-left: 0px !important;
@@ -19,16 +19,30 @@ page-home {
     .bubble{
        vertical-align: middle;
         width: auto;
-        margin: 50px auto;
-        border-radius: 15px;
-        background: whitesmoke;
-        padding: 20px;
-        text-align: center;
+        margin: 5px auto;
+        border-radius: 18px;
+        background: #E6E7ED;
+        padding: 13px;
+        text-align: left;
         font-weight: 900;
         color: black;
         font-family: arial;
-        position: relative;
+        //position: fixed;
     }
+
+    .bubbleyou{
+        vertical-align: middle;
+         width: auto;
+         margin: 5px auto;
+         border-radius: 18px;
+         background: #007AFF;
+         padding: 13px;
+         text-align: right;
+         font-weight: normal;
+         color: rgb(255, 255, 255);
+         font-family: arial;
+        // position: fixed;
+     }
 
     .you::before {
         
@@ -37,17 +51,18 @@ page-home {
         width: 0px;
         height: 0px;
         position: absolute;
-        border-left: 15px solid whitesmoke;
-        border-right: 15px solid transparent;
-        border-top: 15px solid whitesmoke;
-        border-bottom: 15px solid transparent;
-        right: -16px;
+        //background: #007AFF;
+        //border-left: 15px solid #007AFF;
+        //border-right: 15px solid transparent;
+        //border-top: 15px solid #007AFF;
+        //border-bottom: 15px solid transparent;
+        right: -8px;
         top: 0px;
     }
 
     .me {
         float: left;   
-        margin: 2px 45px 2px 15px;         
+        margin: 2px 15px 2px 15px;         
     }
 
     .me:before {
@@ -55,17 +70,18 @@ page-home {
         width: 0px;
         height: 0px;
         position: absolute;
-        border-left: 15px solid transparent;
-        border-right: 15px solid whitesmoke;
-        border-top: 15px solid whitesmoke;
-        border-bottom: 15px solid transparent;
-        left: -16px;
+        //background: #E6E7ED;
+        //border-left: 15px solid transparent;
+        //border-right: 15px solid #E6E7ED;
+        //border-top: 15px solid #E6E7ED;
+        //border-bottom: 15px solid transparent;
+        left: -8px;
         top: 0px;
     }
 
     .you {
         float: right;    
-        margin: 2px 15px 2px 45px;         
+        margin: 2px 15px 2px 15px;         
     }
 
 }
